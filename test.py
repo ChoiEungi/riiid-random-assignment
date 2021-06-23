@@ -23,7 +23,6 @@ end_time = time.time()
 print("WorkingTime[test {}]: {} sec".format(2, end_time-start_time))
 
 
-# it take time too much, so if input is too large, then skip
 start_time = time.time()
 solutions.append([sol3(input_number) for _ in range(test_cases)])
 end_time = time.time()
